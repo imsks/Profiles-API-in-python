@@ -1,0 +1,9 @@
+1. Go to - cd D:\Git Repos\profiles-rest-api
+2. vagrant up -> set VAGRANT_PREFER_SYSTEM_BIN=0 -> vagrant ssh
+3. cd /vagrant
+4. python -m venv ~/env
+5. source ~/env/bin/activate
+6. For Packages - pip install -r requirments.txt
+7. Run Django Server - python manage.py runserver
+
+The Server will run only on http://localhost:8000/
